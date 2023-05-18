@@ -1,0 +1,7 @@
+[WARN  2023年03月23日 星期四 21时47分37秒 13198402126023] ...ite/pack/packer/start/packer.nvim/lua/packer/display.lua:730: Unable to find the diff for this line
+[WARN  2023年03月24日 星期五 21时17分59秒 8103953524755] ...ite/pack/packer/start/packer.nvim/lua/packer/display.lua:730: Unable to find the diff for this line
+[WARN  2023年03月26日 星期日 10时53分24秒 4587806734927] ...ite/pack/packer/start/packer.nvim/lua/packer/display.lua:612: Potential breaking change in commit d1333dd of nvim-treesitter/nvim-treesitter
+[WARN  2023年03月26日 星期日 17时03分23秒 25429759090195] ...ite/pack/packer/start/packer.nvim/lua/packer/display.lua:612: Potential breaking change in commit 98e15df of akinsho/toggleterm.nvim
+[WARN  2023年03月26日 星期日 17时04分56秒 25523065751746] .../site/pack/packer/start/packer.nvim/lua/packer/clean.lua:75: Could not remove /home/hpxx/.local/share/nvim/site/pack/packer/start/nvim-cursorline
+[WARN  2023年04月04日 星期二 22时36分22秒 13334805183026] ...ite/pack/packer/start/packer.nvim/lua/packer/display.lua:612: Potential breaking change in commit 98e15df of akinsho/toggleterm.nvim
+[WARN  2023年04月04日 星期二 22时36分22秒 13334805293359] ...ite/pack/packer/start/packer.nvim/lua/packer/display.lua:612: Potential breaking change in commit 93fa5df of nvim-treesitter/nvim-treesitter

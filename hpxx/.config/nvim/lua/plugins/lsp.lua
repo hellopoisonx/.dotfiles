@@ -1,27 +1,8 @@
 return {
 	{
-		"williamboman/mason.nvim",
-		dependencies = {
-			"williamboman/mason-lspconfig.nvim",
-			"neovim/nvim-lspconfig",
-		},
-		build = ":MasonUpdate", -- :MasonUpdate updates registry contents
-		config = function()
-			require("mason").setup({
-				ui = {
-					icons = {
-						package_installed = "✓",
-						package_pending = "➜",
-						package_uninstalled = "✗",
-					},
-				},
-			})
-		end,
-	},
-	{
 		"hrsh7th/nvim-cmp",
-        event = "InsertEnter",
-        enabled = true,
+		event = "InsertEnter",
+		enabled = true,
 		dependencies = {
 			"hrsh7th/cmp-nvim-lsp",
 			"hrsh7th/cmp-buffer",
@@ -51,7 +32,7 @@ return {
 				}),
 				sources = cmp.config.sources({
 					{ name = "nvim_lsp" },
-					{ name = "vsnip" }, 
+					{ name = "vsnip" },
 				}, { { name = "buffer" }, { name = "path" }, { name = "cmdline" } }),
 			})
 			-- Set configuration for specific filetype.
@@ -121,6 +102,8 @@ return {
 	},
 	{
 		"numToStr/Comment.nvim",
+        event = "InsertEnter",
+        enabled = true,
 		config = function()
 			require("Comment").setup()
 		end,
@@ -128,6 +111,8 @@ return {
 	},
 	{
 		"windwp/nvim-autopairs",
+        event = "InsertEnter",
+        enabled = true,
 		config = function()
 			local npairs = require("nvim-autopairs")
 			local Rule = require("nvim-autopairs.rule")

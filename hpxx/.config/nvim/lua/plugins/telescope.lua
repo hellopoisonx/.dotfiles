@@ -32,6 +32,11 @@ return {
                 "<leader>fs",
                 "<cmd>Telescope grep_string<cr>",
                 desc = "telescope treesitter"
+            },
+            {
+                "<leader>fq",
+                "<cmd>Telescope file_browser<cr>",
+                desc = "telescope file browser"
             }
         },
         config = function()

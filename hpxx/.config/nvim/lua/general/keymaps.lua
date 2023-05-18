@@ -40,7 +40,8 @@ map("v", "J", ":move '>+1<CR>gv-gv", opt)
 map("v", "K", ":move '<-2<CR>gv-gv", opt)
 -- visual模式粘贴不复制
 map("v", "p", '"_dP', opt)
-
+-- Lazy
+map("n", "<leader>l", "<cmd>Lazy<cr>", opt)
 -- plugin
 -- tab
 -- map("n", "<C-n>", ":tabe<CR>", opt)
